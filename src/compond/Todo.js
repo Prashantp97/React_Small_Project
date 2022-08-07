@@ -47,9 +47,9 @@ function Todo() {
         {data.map((val, index) => {
           return (
             <>
-              <h3>
+              <h4>
                 {val} <button onClick={() => remove(index)}>X</button>
-              </h3>
+              </h4>
             </>
           );
         })}

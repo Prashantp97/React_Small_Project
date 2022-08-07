@@ -18,7 +18,7 @@ function Counterdec() {
   }
   return (
     <div>
-      <input onKeyDown={handleInput} />
+      <input onKeyDown={handleInput} placeholder="Add your no and hit enter" />
       <p>{secLeft}</p>
     </div>
   );

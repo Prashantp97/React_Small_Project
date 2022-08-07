@@ -13,7 +13,7 @@ function Counter() {
   }
   return (
     <>
-      <h1>count={count1}</h1>
+      <h4>count={count1}</h4>
       <button onClick={reset} disabled={count1 === 0}>
         reset the count
       </button>
